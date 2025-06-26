@@ -12,6 +12,7 @@ It needs tensorrt engine converted from **'yolov5.onnx'** by using 'trtexec'. (l
 
 
 To exporting onnx model from 'yolov5s.pt' is very simple. 
+
 Run **'yolov5s_to_onnx.py'** that loads 'yolov5s.pt' file and exporting its onnx model. 
 
 
