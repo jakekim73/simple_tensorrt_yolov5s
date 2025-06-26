@@ -4,7 +4,7 @@ The **'my_simple_yolov5_tensorrt.py'** is python object detection application us
 
 It needs tensorrt engine converted from **'yolov5.onnx'** by using 'trtexec'. (like below, tested jetson nano)  
 
-**/usr/src/tensorrt/bin/trtexec --onnx=yolov5s.onnx --saveEngine=yolov5s.engine --verbose --workspace=4096 --fp16**
+**$ /usr/src/tensorrt/bin/trtexec --onnx=yolov5s.onnx --saveEngine=yolov5s.engine --verbose --workspace=4096 --fp16**
 
 
 
@@ -18,3 +18,6 @@ Run **'yolov5s_to_onnx.py'** that loads 'yolov5s.pt' file and exporting its onnx
 
 
 
+# Getting the 'yolov5s.pt' file  
+
+**$ wget https://github.com/ultralytics/yolov5/releases/download/v6.1/yolov5s.pt**
